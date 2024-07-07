@@ -3,7 +3,7 @@
 <html lang="zh">
 <head>
     <meta charset="utf-8" />
-    <title>Hello World | tarjen&#39;s blog</title>
+    <title>categories | tarjen&#39;s blog</title>
     <meta name="author" content="tarjen" />
     <meta name="description" content="" />
     <meta name="keywords" content="" />
@@ -37,10 +37,6 @@
 
 
 <script src="/js/lib/preview.js"></script>
-
-
-
-
 
 
 
@@ -154,53 +150,34 @@
 </transition>
 
         <div id="main" :class="loading ? 'into-enter-from': 'into-enter-active'">
-            <div class="article">
-    <div>
-        <h1>Hello World</h1>
-    </div>
-    <div class="info">
-        <span class="date">
-            <span class="icon">
-                <i class="fa-solid fa-calendar fa-fw"></i>
-            </span>
-            2024/7/7
+            <div id="archives">
+    
+    <div class="categories-tags">
+        
+        
+        
+        <span>
+            <a href="/tags/A/" style="background: #03a9f4">
+                <span class="icon">
+                    <i class="fa-solid fa-tags fa-fw"></i>
+                </span>
+                A
+            </a>
         </span>
         
         
-        <span class="tags">
-            <span class="icon">
-                <i class="fa-solid fa-tags fa-fw"></i>
-            </span>
-            
-            
-            <span class="tag">
-                
-                <a href="/tags/A/" style="color: #00a596">
-                    A
-                </a>
-            </span>
-            
-            <span class="tag">
-                
-                <a href="/tags/B/" style="color: #ff7d73">
-                    B
-                </a>
-            </span>
-            
+        
+        <span>
+            <a href="/tags/B/" style="background: #ffa2c4">
+                <span class="icon">
+                    <i class="fa-solid fa-tags fa-fw"></i>
+                </span>
+                B
+            </a>
         </span>
         
+        
     </div>
-    
-    <div class="content" v-pre>
-        <p>Hello World!</p>
-
-    </div>
-    
-    
-    
-    
-    
-    
     
 </div>
 
@@ -232,12 +209,6 @@
         
     </div>
     <script src="/js/main.js"></script>
-    
-    
-
-
-
-
     
 </body>
 </html>
